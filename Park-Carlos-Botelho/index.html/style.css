@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+header {}
+
+.menu {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.logo {
+    width: 10em;
+
+}
+
+.lista {
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+
+
+}
+
+.lista a {
+    text-decoration: none;
+    color: #2f782b;
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 0;
+    transition: 0.3s;
+    text-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.199);
+
+}
+
+.lista a:hover {
+    color: black;
+
+}
