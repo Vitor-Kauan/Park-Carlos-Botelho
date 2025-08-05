@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
-body {}
+:root{
+    --cor01:var(#333);
 
-header {}
+
+
+}
+body {
+
+}
+
+
 
 .menu {
     margin: 20px 30px;
@@ -19,7 +27,7 @@ header {}
 
 
 .logo {
-    width: 10em;
+    width: 7em;
 
 }
 
@@ -46,5 +54,16 @@ header {}
 
 .lista a:hover {
     color: black;
+
+}
+
+.titulo {
+    font-size: 30px;
+
+
+}
+
+.subtitulo{
+    
 
 }
